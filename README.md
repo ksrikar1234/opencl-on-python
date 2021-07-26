@@ -5,6 +5,7 @@ Testing and bechmarking PyOpencl programs
 
 ### Dependencies
 run 
+- `cd opencl-on-python`
 - `sh pyocl_setup.sh`
 
 ### Testing and Benchmarking
