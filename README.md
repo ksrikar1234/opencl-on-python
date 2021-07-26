@@ -4,7 +4,7 @@ Testing and bechmarking PyOpencl programs
 - `git clone https://github.com/ksrikar1234/opencl-on-python.git`
 
 ### Dependencies
-run 
+#### Run 
 - `cd opencl-on-python`
 - `sh pyocl_setup.sh`
 
