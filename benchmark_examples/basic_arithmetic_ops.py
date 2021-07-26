@@ -10,7 +10,7 @@ b_np = np.random.rand(72000000).astype(np.float32)
 #b_np = x["z"]
 #pprint(a_np)
 #pprint(b_np)
-ctx = cl.create_some_context()
+ctx = cl.create_some_context(interactive=True)
 queue = cl.CommandQueue(ctx)
 
 mf = cl.mem_flags
