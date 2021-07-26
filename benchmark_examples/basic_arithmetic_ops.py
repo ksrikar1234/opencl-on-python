@@ -50,8 +50,8 @@ x = (2*a_np + 2.5*b_np)
 cpu_time_taken = time.time() - cpu_st
 #print(" time take on CPU =   %.6f sec"  %(cpu_time_taken))
 #pprint((x))
-#pprint(np.linalg.norm(res_np - (x)))
-#assert np.allclose(res_np, x)
+pprint(np.linalg.norm(res_np - (x)))
+assert np.allclose(res_np, x)
 
 print("cpu_time_taken      = %.6f sec"  %(cpu_time_taken))
 print("opencl_time_taken   = %.6f sec"  %(opencl_time_taken))
