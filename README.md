@@ -1,6 +1,6 @@
 # opencl-on-python
 Testing and bechmarking PyOpencl programs
-### install
+### Download
 - `git clone https://github.com/ksrikar1234/opencl-on-python.git`
 
 ### Dependencies
